@@ -24,4 +24,4 @@ The application is built with [React](https://reactjs.org/) on the client side, 
 
 I am currently hosting the app live on Heroku at [closecreate.com](https://www.closecreate.com). I'd love to see the creative community get use out of it! I also hope the open source repo is taken advantage of as this code can be reused to create all kinds of interesting matchmaking apps.
 
-UPDATE: I am no longer hosting this app, but the code will stay a available on my [Github](https://github.com/roldyclark/closecreate). I am currently working on an updated concept for closecreate. Stay tuned.
+UPDATE: I am no longer hosting this app, but the code will stay a available on my [Github](https://github.com/roldyclark/closecreate). I am currently working on an updated concept for Closecreate. Stay tuned.
