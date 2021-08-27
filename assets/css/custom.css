@@ -1,0 +1,284 @@
+.hero img {
+  filter: brightness(50%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 125px;
+}
+
+.nav-links {
+  text-align: right;
+}
+
+nav a {
+  margin: 0.5rem;
+}
+
+.dropdown svg {
+  fill: var(--primary-color);
+}
+
+@media screen and (min-width: 1100px) {
+  #frontpage .postcard {
+    width: calc(66.66667% - 100px);
+  }
+  #frontpage .postcard-sm {
+    width: calc(33.33333% - 70px);
+  }
+  #frontpage .postcard-sm:nth-child(n + 3):nth-child(-n + 4),
+  #secondpage .postcard-sm {
+    width: calc(50% - 100px);
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 800px) {
+  .postcard {
+    width: 100%;
+    max-width: 800px;
+  }
+  .postcard-sm {
+    width: 100%;
+    min-width: 350px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .postcard {
+    width: 100%;
+  }
+  .postcard-sm {
+    width: 100%;
+  }
+  .postcard img:first-child {
+    max-width: 200%;
+    height: 100%;
+    width: auto;
+  }
+}
+
+.postcard img:first-child {
+  filter: brightness(75%);
+}
+
+.postcard .post-title,
+.postcard .post-categories,
+.postcard .post-date,
+.postcard-sm .post-title,
+.postcard-sm .post-categories,
+.postcard-sm .post-date {
+  margin: 2rem;
+}
+
+.postcard .post-title {
+  position: absolute;
+  top: 10rem;
+  margin-right: 75px;
+}
+
+.postcard .post-categories {
+  position: absolute;
+  top: 6rem;
+}
+
+.postcard-sm .post-title {
+  margin-top: 1rem;
+  line-height: 4rem;
+}
+
+.postcard .post-date,
+.postcard-sm .post-date {
+  position: absolute;
+  bottom: 0;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.card .avatar {
+  width: 4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 2rem;
+  border-style: solid;
+  border-color: white;
+}
+
+.post-container {
+  max-width: 1600px;
+}
+
+#post {
+  max-width: 900px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#post .post-title {
+  margin-top: 50px;
+}
+
+#post img {
+  width: 100%;
+  margin: 3rem 0;
+}
+
+#author {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#post hr {
+  margin-top: 5rem;
+}
+
+/* typography */
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  font-size: 2rem;
+}
+
+.dropdown a {
+  font-size: 2.5rem;
+}
+
+.hero {
+  color: white;
+}
+
+.hero-title h1 {
+  font-size: 7rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1100px) {
+  #frontpage .postcard-sm:nth-child(2) .post-title,
+  #frontpage .postcard-sm:nth-child(n + 5):nth-child(-n + 7) .post-title {
+    font-size: 1.5rem;
+  }
+}
+
+.postcard .card {
+  color: white;
+}
+
+.postcard .post-title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.postcard-sm .post-title {
+  font-size: 3rem;
+  line-height: 2.35rem;
+}
+
+.postcard-sm .post-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.postcard .post-categories {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.postcard-sm .post-categories {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#post p {
+  font-size: 2rem;
+}
+
+#post .post-title h1 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#post .post-categories {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+#post .post-date {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.pagination {
+  font-size: 2rem;
+}
+
+#recommended .post-title {
+  font-size: 2rem;
+}
+
+/* helpers */
+
+#moon {
+  margin: 1.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-style: none;
+  background: linear-gradient(
+    90deg,
+    var(--lm-navbar-bg-color) 50%,
+    var(--dm-navbar-bg-color) 50%
+  );
+  cursor: pointer;
+}
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.fill img {
+  flex-shrink: 0;
+  max-width: 130%;
+  min-height: 100%;
+}
+
+.card {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  overflow: hidden;
+}
+
+.card:hover {
+  top: -10px;
+}
+
+pre {
+  white-space: pre-wrap;
+  tab-size: 2;
+}
+
+/* variables */
+
+:root {
+  --navbar-height: 70px;
+  --dm-navbar-bg-color: black;
+  --dm-base-body-bg-color: #111;
+  --dm-card-bg-color: #111;
+  --primary-color: #777aff;
+  --primary-color-light: #a5a6fa;
+}
