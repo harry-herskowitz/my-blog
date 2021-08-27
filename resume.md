@@ -13,14 +13,13 @@ Web Developer and Programmer
 
 ### Summary
 
-Self-motivated coder with a lifelong passion for digital media looking to take
-on new challenges. 8+ years experience building and maintaining websites using a
+Self-motivated coder with a lifelong passion for technology. 8+ years experience building and maintaining websites using a
 wide range of languages, frameworks, and libraries. Strong problem solving
 skills, highly organized and good with people.
 
 ### Skills
 
-HTML, CSS, SCSS/SASS, JavaScript, React, Redux, Express, NodeJS, Ruby on Rails, WordPress, MongoDB, PostgreSQL, Git/GitHub, Heroku, DigitalOcean, Linux, VS Code, Postman, Graphic Design, Photoshop, Illustrator
+HTML, CSS, JavaScript, React, Redux, Express, NodeJS, Ruby on Rails, WordPress, MongoDB, PostgreSQL, Git/GitHub, Heroku, Linux, VS Code, Postman, Graphic Design, Photoshop, Illustrator
 
 ### Experience
 
@@ -46,7 +45,7 @@ Philadelphia, PA
 
 - Work with businesses, organizations, and artists to develop websites that meet their needs.
 - Redesign and optimize existing sites for increased performance, functionality, and aesthetics.
-- Build web apps and prototypes for startups using popular frameworks (MERN, Ruby on Rails).
+- Build web apps and prototypes for startups using popular frameworks (React, Ruby on Rails).
 
 VCUarts - Junior Web Developer\
 June 2016 - May 2017\
@@ -54,7 +53,7 @@ Richmond, VA
 
 - Designed, implemented and monitored arts.vcu.edu for continuous improvement.
 - Kept informed of emerging technologies, software and trends for project applications.
-- Produced page content such as visuals and text copy to meet project specifications.
+- Produced page content such as interactive visuals for school events and initiatives.
 
 ### Education
 
