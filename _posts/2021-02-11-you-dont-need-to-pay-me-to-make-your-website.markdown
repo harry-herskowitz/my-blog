@@ -18,14 +18,14 @@ First, I'll give you the easiest options. If you just want a blog with a custom 
 
 If you can't afford more than $4 a month, but need full WordPress features, then you'll have to host it yourself. It'll cost about $45 a year ($3.75 a month). Here's how to do that:
 
-1. Pick a hosting provider. My go-to is [Reclaim Hosting](https://reclaimhosting.com/), but [here](https://websitesetup.org/best-web-hosting-sites/) is a list of the most popular ones. Just follow the sign up process and pick a domain and hosting plan.
+Step 1: Pick a hosting provider. My go-to is [Reclaim Hosting](https://reclaimhosting.com/), but [here](https://websitesetup.org/best-web-hosting-sites/) is a list of the most popular ones. Just follow the sign up process and pick a domain and hosting plan.
 
-2. Install WordPress. This process will be different depending on what host you use. On Reclaim, you go to cPanel and look for the WordPress button under Applications. It'll ask you what domain format you want to use - choose [https://yourdomain.com](https://yourdomain.com). Make sure you leave the directory section blank. Name your site, give it a tagline, and set your username and password (don't forget it!). You can keep all the default settings.
+Step 2: Install WordPress. This process will be different depending on what host you use. On Reclaim, you go to cPanel and look for the WordPress button under Applications. It'll ask you what domain format you want to use - choose [https://yourdomain.com](https://yourdomain.com). Make sure you leave the directory section blank. Name your site, give it a tagline, and set your username and password (don't forget it!). You can keep all the default settings.
 
 ![installatron screenshot]({{ site.baseurl }}/assets/images/posts/installatron.jpg)
 
-3. You now have a WordPress site. Sign into the admin panel by adding /wp-admin to the end of your domain (ex. yourdomain.com/wp-admin) and sign in.
+Step 3: You now have a WordPress site. Sign into the admin panel by adding /wp-admin to the end of your domain (ex. yourdomain.com/wp-admin) and sign in.
 
-4. Learn how to use WordPress! [Here](https://wordpress.com/learn/) is the official guide. Knowing how to use WordPress is an invaluable skill that will empower you in your entrepreneurial endeavors, as well as make you more of an asset to future employers.
+Step 4: Learn how to use WordPress! [Here](https://wordpress.com/learn/) is the official guide. Knowing how to use WordPress is an invaluable skill that will empower you in your entrepreneurial endeavors, as well as make you more of an asset to future employers.
 
 I hope this was helpful. If after reading this you still want to hire me anyway, that's fine with me! At least you are now more educated on what's going on behind the scenes.
