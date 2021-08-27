@@ -5,7 +5,7 @@ date: 2021-02-11
 categories: [Wordpress]
 image: 'wordpress.jpg'
 author: 'Harry Herskowitz'
-author_blurb: 'Harry is a web developer and videographer with a focus on using technology to empower local artists and communities'
+author_blurb: 'Harry is a web developer and programmer with a focus on using technology to empower local artists and communities'
 author_link: 'https://github.com/roldyclark'
 avatar: 'roldy.png'
 ---
