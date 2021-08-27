@@ -20,34 +20,25 @@ skills, highly organized and good with people.
 
 ### Skills
 
-HTML, CSS, SCSS/SASS, JavaScript, React, Redux, Express, NodeJS, Ruby on Rails, WordPress, MongoDB,
-PostgreSQL, Git/GitHub, Heroku, DigitalOcean, Linux, Command Line, NPM,
-Homebrew, VS Code, Postman, Stack Overflow, Google, Graphic Design, Photoshop,
-Illustrator
+HTML, CSS, SCSS/SASS, JavaScript, React, Redux, Express, NodeJS, Ruby on Rails, WordPress, MongoDB, PostgreSQL, Git/GitHub, Heroku, DigitalOcean, Linux, VS Code, Postman, Graphic Design, Photoshop, Illustrator
 
 ### Experience
 
-Closecreate - Full Stack JavaScript Developer\
-Aug 2020 - Jan 2021\
-Philadelphia, PA
+Bitwerx - Software Developer\
+March 2021 - Present\
+Lexington, KY
 
-- Developed an open source matchmaking app for
-  creative collaboration.
-- Wrote clean React code using Hooks and Redux + Express
-  and MongoDB backend.
-- Integrated Socket.io for live messaging, Geolocation API
-  for search, and AWS for images.
+- Develop custom, web-based software solutions for a large-scale veterinary technology corporation.
+- Continued development and maintence on critical web-based systems depended upon by veternary clinics nationwide.
+- Develop architecture for performing data migrations to new systems.
 
 Thread Threads - Ruby on Rails Developer\
-March 2020 - July 2020\
+March 2020 - Present\
 Fayetteville, AR
 
-- Developed a prototype for a textile archive
-  web app with Ruby on Rails.
-- Closely followed UI/UX wireframes and implemented
-  specified functionionality.
-- Integrated Devise authentication with Google and
-  Facebook OAuth, and AWS for images.
+- Continued development and maintence of Thread Threads, a textile archive web application.
+- Closely follow UI/UX wireframes and implement specified functionionality.
+- Integrated authentication with Google and Facebook OAuth, and AWS S3 for images.
 
 Prismoscope - Freelance Web Developer\
 June 2017 - Present\
