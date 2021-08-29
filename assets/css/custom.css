@@ -7,12 +7,18 @@
   top: 125px;
 }
 
+@media screen and (max-width: 700px) {
+  .hero-text {
+    top: 80px;
+  }
+}
+
 .nav-links {
   text-align: right;
 }
 
 nav a {
-  margin: 0.5rem;
+  margin: 1rem;
 }
 
 .dropdown svg {
@@ -152,7 +158,7 @@ a:hover {
 }
 
 .dropdown a {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .hero {
@@ -164,10 +170,9 @@ a:hover {
   font-weight: bold;
 }
 
-@media screen and (min-width: 1100px) {
-  #frontpage .postcard-sm:nth-child(2) .post-title,
-  #frontpage .postcard-sm:nth-child(n + 5):nth-child(-n + 7) .post-title {
-    font-size: 1.5rem;
+@media screen and (max-width: 700px) {
+  .hero-title h1 {
+    font-size: 4rem;
   }
 }
 
@@ -180,6 +185,12 @@ a:hover {
   font-weight: bold;
 }
 
+@media screen and (max-width: 700px) {
+  .postcard .post-title {
+    font-size: 3rem;
+  }
+}
+
 .postcard-sm .post-title {
   font-size: 3rem;
   line-height: 2.35rem;
@@ -188,6 +199,13 @@ a:hover {
 .postcard-sm .post-title {
   font-size: 2rem;
   font-weight: bold;
+}
+
+@media screen and (min-width: 1100px) {
+  #frontpage .postcard-sm:nth-child(2) .post-title,
+  #frontpage .postcard-sm:nth-child(n + 5):nth-child(-n + 7) .post-title {
+    font-size: 1.5rem;
+  }
 }
 
 .postcard .post-categories {
@@ -229,6 +247,12 @@ a:hover {
 
 /* helpers */
 
+.left,
+.right {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
 #moon {
   margin: 1.5rem;
   width: 40px;
@@ -244,6 +268,7 @@ a:hover {
 }
 
 .fill {
+  height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -254,6 +279,12 @@ a:hover {
   flex-shrink: 0;
   max-width: 130%;
   min-height: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .fill {
+    height: 300px;
+  }
 }
 
 .card {
@@ -281,4 +312,5 @@ pre {
   --dm-card-bg-color: #111;
   --primary-color: #777aff;
   --primary-color-light: #a5a6fa;
+  --navbar-brand-image-height: 50px;
 }
