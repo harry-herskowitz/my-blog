@@ -8,9 +8,11 @@
       >{{ category }}</a
     >
     {% endfor %}
-    <div class="post-date m-10">{{ page.date | date: '%B %d, %Y' }}</div>
   </div>
   <div class="body m-auto">{{content}}</div>
+  <div class="post-date text-center m-auto mt-10">
+    Published {{ page.date | date: '%B %d, %Y' }}
+  </div>
   {%include author.html%}
   <p class="text-center mb-0">Recommended for you</p>
 </div>
