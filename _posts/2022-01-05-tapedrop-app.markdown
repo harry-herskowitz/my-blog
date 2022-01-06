@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'How I Built the Tapedrop app'
+title: 'Building an iOS app with Svelte, Capacitor and Firebase'
 date: 2022-01-05
 categories: [Svelte, Firebase, Capacitor, JS]
 image: 'tapedrop-app-card.jpg'
