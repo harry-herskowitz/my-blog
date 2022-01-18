@@ -19,7 +19,7 @@ skills, highly organized and good with people.
 
 ### Skills
 
-HTML, CSS, JavaScript, React, Redux, Express, NodeJS, Ruby on Rails, WordPress, MongoDB, PostgreSQL, Git/GitHub, Heroku, Linux, VS Code, Postman, Graphic Design, Photoshop, Illustrator
+HTML, CSS, JavaScript, React, Svelte, NodeJS, Ruby on Rails, iOS, PostgreSQL, GraphQL, Firebase, Heroku, AWS, Linux, WordPress, Graphic Design, Photoshop, Illustrator
 
 ### Experience
 
@@ -32,7 +32,7 @@ Lexington, KY
 - Develop architecture for performing data migrations to new systems.
 
 Thread Threads - Ruby on Rails Developer\
-March 2020 - Present\
+March 2020 - July 2020\
 Fayetteville, AR
 
 - Continued development and maintence of Thread Threads, a textile archive web application.
