@@ -26,7 +26,7 @@ March 2021 - Present\
 Lexington, KY
 
 - Develop custom, web-based software solutions for a large-scale veterinary technology company.
-- Continued development and maintence on critical web-based systems depended upon by veternary clinics nationwide.
+- Continued development and maintenance on critical web-based systems depended upon by veterinary clinics nationwide.
 - Break out functionality from a monolithic application into microservices.
 
 Thread Threads - Ruby on Rails Developer\
@@ -38,7 +38,7 @@ Fayetteville, AR
 - Integrated authentication with Google and Facebook OAuth, and AWS S3 for images.
 
 Freelance Web Developer\
-June 2017 - Present\
+June 2017 - Present
 
 - Work with businesses, organizations, and artists to develop websites that meet their needs.
 - Redesign and optimize existing sites for increased performance, functionality, and aesthetics.
