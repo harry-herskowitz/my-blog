@@ -6,8 +6,8 @@ categories: [React, Javascript, NodeJS]
 image: 'hooks.jpg'
 author: 'Harry Herskowitz'
 author_blurb: 'Harry is a web developer and programmer with a focus on using technology to empower local artists and communities'
-author_link: 'https://github.com/roldyclark'
-avatar: 'roldy.png'
+author_link: 'https://github.com/harry-herskowitz'
+avatar: 'RCA.jpg'
 ---
 
 React Hooks are great. They are clean, easy to read, and save time typing boilerplate. However, they are very new, and many popular tutorials have yet to fully adopt them - particularly in Redux. In this post I will be taking a component from Brad Traversy's [MERN Stack Front To Back](https://www.udemy.com/course/mern-stack-front-to-back) tutorial and converting it to use Redux hooks.

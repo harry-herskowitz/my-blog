@@ -6,8 +6,8 @@ categories: [Firebase, Capacitor, JS]
 image: 'firebase.jpg'
 author: 'Harry Herskowitz'
 author_blurb: 'Harry is a web developer and programmer with a focus on using technology to empower local artists and communities'
-author_link: 'https://github.com/roldyclark'
-avatar: 'roldy.png'
+author_link: 'https://github.com/harry-herskowitz'
+avatar: 'RCA.jpg'
 ---
 
 I recently built my first native iOS app with Svelte, Capacitor, and Firebase (coming soon!). The stack is a breeze to work with, but I ran into a snag getting Firebase to work in the iOS builds. Non of the firebase calls were returning. Luckily, a friendly redditor pointed out the problem: Firebase auth needs to be initialized manually on iOS, or else signInWithPopUp and signInWithRedirect will hold things up - even when using a capacitor plugin that authorizes natively like [capacitor-firebase-authentication](https://github.com/robingenz/capacitor-firebase-authentication). So here's my code to manually authorize on iOS:

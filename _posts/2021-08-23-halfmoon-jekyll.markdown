@@ -6,8 +6,8 @@ categories: [Jekyll]
 image: 'halfmoon.jpg'
 author: 'Harry Herskowitz'
 author_blurb: 'Harry is a web developer and programmer with a focus on using technology to empower local artists and communities'
-author_link: 'https://github.com/roldyclark'
-avatar: 'roldy.png'
+author_link: 'https://github.com/harry-herskowitz'
+avatar: 'RCA.jpg'
 ---
 
 Welcome to Halfmoon-Jekyll! I made this [Jekyll](https://jekyllrb.com/) theme using the [Halfmoon](https://www.gethalfmoon.com/docs/introduction/) front-end framework. It supports categories, pagination, multiple authors, and dark mode.
@@ -16,4 +16,4 @@ I made Halfmoon-Jekyll in order to move my blogs away from Ghost - mostly so I c
 
 Halfmoon-Jekyll is easily customizable thanks to Halfmoon's CSS variables. This site uses no JS aside from the dark mode toggle - which I feel very clever about.
 
-Fork it on [Github](https://github.com/roldyclark/halfmoon-jekyll) and hack away!
+Fork it on [Github](https://github.com/harry-herskowitz/halfmoon-jekyll) and hack away!

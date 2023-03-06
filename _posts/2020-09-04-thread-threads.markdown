@@ -6,8 +6,8 @@ categories: [Rails, Ruby]
 image: 'threadthreadscover.jpg'
 author: 'Harry Herskowitz'
 author_blurb: 'Harry is a web developer and programmer with a focus on using technology to empower local artists and communities'
-author_link: 'https://github.com/roldyclark'
-avatar: 'roldy.png'
+author_link: 'https://github.com/harry-herskowitz'
+avatar: 'RCA.jpg'
 ---
 
 ![threadthreads screenshot]({{ site.baseurl }}/assets/images/posts/threadthreads.jpg)

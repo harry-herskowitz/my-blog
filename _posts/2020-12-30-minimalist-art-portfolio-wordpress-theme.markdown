@@ -6,8 +6,8 @@ categories: [Wordpress]
 image: 'jesstheme.jpg'
 author: 'Harry Herskowitz'
 author_blurb: 'Harry is a web developer and programmer with a focus on using technology to empower local artists and communities'
-author_link: 'https://github.com/roldyclark'
-avatar: 'roldy.png'
+author_link: 'https://github.com/harry-herskowitz'
+avatar: 'RCA.jpg'
 ---
 
 <script src="https://gumroad.com/js/gumroad-embed.js"></script>
