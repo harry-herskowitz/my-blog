@@ -26,5 +26,3 @@ To use the theme to its full potential, I recommend the following plugins:
 [Simple Custom Post Order](https://wordpress.org/plugins/simple-custom-post-order/) - Drag and drop posts to desired order.
 
 Also, be sure to remove all default widgets through Appearance > Widgets.
-
-For support, please contact me through the contact form on [prismoscope.com](https://prismoscope.com).
