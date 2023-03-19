@@ -1,13 +1,8 @@
 ---
 layout: post
-title: 'HTML Form Submit with Google reCAPTCHA, Vanilla JS and PHP'
+title: 'HTML Form Submit with reCAPTCHA, JS and PHP'
 date: 2020-12-09
-categories: [HTML, PHP, JS]
 image: 'recaptchacover.jpg'
-author: 'Harry Herskowitz'
-author_blurb: 'Harry is a web developer and programmer with a focus on using technology to empower local artists and communities'
-author_link: 'https://github.com/harry-herskowitz'
-avatar: 'RCA.jpg'
 ---
 
 ![recaptcha]({{ site.baseurl }}/assets/images/posts/recaptcha.jpg)

@@ -2,12 +2,7 @@
 layout: post
 title: 'Archiving the Life of Secondhand Textiles'
 date: 2020-09-04
-categories: [Rails, Ruby]
 image: 'threadthreadscover.jpg'
-author: 'Harry Herskowitz'
-author_blurb: 'Harry is a web developer and programmer with a focus on using technology to empower local artists and communities'
-author_link: 'https://github.com/harry-herskowitz'
-avatar: 'RCA.jpg'
 ---
 
 ![threadthreads screenshot]({{ site.baseurl }}/assets/images/posts/threadthreads.jpg)

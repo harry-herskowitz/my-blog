@@ -2,14 +2,7 @@
 layout: post
 title: Multiple Ghost Blogs on One Server
 date: 2020-02-25
-categories: [Ghost, Digital Ocean, Linux]
 image: 'ghost.jpg'
-author: 'Harry Herskowitz'
-author_blurb: 'Harry is a web developer and programmer with a focus on using technology to empower local artists and communities'
-author_link: 'https://github.com/harry-herskowitz'
-avatar: 'RCA.jpg'
----
-
 ---
 
 I love [Ghost](https://ghost.org/). In the past year I've migrated all of my sites from WordPress and I have never looked back. However, the increased cost of running a VPS for each site adds up. There are a lot of forum discussions on how to install multiple ghost blogs on one server, but they all suggest complicated [Docker](https://www.docker.com/) setups or post [this outdated article](https://www.digitalocean.com/community/tutorials/how-to-serve-multiple-ghost-blogs-on-one-vps-using-nginx-server-blocks) from 2013.

@@ -2,12 +2,7 @@
 layout: post
 title: 'Omniauth: Not found. Authentication passthru'
 date: 2021-07-29
-categories: [Rails]
 image: 'facebooklogin.jpg'
-author: 'Harry Herskowitz'
-author_blurb: 'Harry is a web developer and programmer with a focus on using technology to empower local artists and communities'
-author_link: 'https://github.com/harry-herskowitz'
-avatar: 'RCA.jpg'
 ---
 
 ![wordpress.com screenshot]({{ site.baseurl }}/assets/images/posts/facebooklogin.jpg)

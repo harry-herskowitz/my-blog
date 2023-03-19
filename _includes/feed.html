@@ -1,2 +1,6 @@
-{% if paginator.previous_page %} {%include feedsecond.html%} {% else %}
-{%include feedfront.html%} {%endif%} {%include paginator.html%}
+<div class="card-container">
+  {% for post in paginator.posts%}
+    {% include postcard.html post=post %}
+  {% endfor %}
+</div>
+{%include paginator.html%}

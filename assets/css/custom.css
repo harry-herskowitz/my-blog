@@ -1,307 +1,6 @@
-.hero img {
-  filter: brightness(50%);
-}
-
-.hero-text {
-  position: absolute;
-  top: 125px;
-}
-
-@media screen and (max-width: 700px) {
-  .hero-text {
-    top: 80px;
-  }
-}
-
-.nav-links {
-  text-align: right;
-}
-
-nav a {
-  margin: 1rem;
-}
-
-.dropdown svg {
-  fill: var(--primary-color);
-}
-
-@media screen and (min-width: 1100px) {
-  #frontpage .postcard {
-    width: calc(66.66667% - 100px);
-  }
-  #frontpage .postcard-sm {
-    width: calc(33.33333% - 70px);
-  }
-  #frontpage .postcard-sm:nth-child(n + 3):nth-child(-n + 4),
-  #secondpage .postcard-sm {
-    width: calc(50% - 100px);
-  }
-}
-
-@media screen and (max-width: 1100px) and (min-width: 800px) {
-  .postcard {
-    width: 100%;
-    max-width: 800px;
-  }
-  .postcard-sm {
-    width: 100%;
-    min-width: 350px;
-    max-width: 400px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .postcard {
-    width: 100%;
-  }
-  .postcard-sm {
-    width: 100%;
-  }
-  .postcard img:first-child {
-    max-width: 200%;
-    height: 100%;
-    width: auto;
-  }
-}
-
-.postcard img:first-child {
-  filter: brightness(75%);
-}
-
-.postcard .post-title,
-.postcard .post-categories,
-.postcard .post-date,
-.postcard-sm .post-title,
-.postcard-sm .post-categories,
-.postcard-sm .post-date {
-  margin: 2rem;
-}
-
-.postcard .post-title {
-  position: absolute;
-  top: 10rem;
-  margin-right: 75px;
-}
-
-.postcard .post-categories {
-  position: absolute;
-  top: 6rem;
-}
-
-.postcard-sm .post-title {
-  margin-top: 1rem;
-  line-height: 4rem;
-}
-
-.postcard .post-date,
-.postcard-sm .post-date {
-  position: absolute;
-  bottom: 0;
-}
-
-.avatar {
-  border-radius: 50%;
-}
-
-.card .avatar {
-  width: 4rem;
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin: 2rem;
-  border-style: solid;
-  border-color: white;
-}
-
-.post-container {
-  max-width: 1600px;
-}
-
-#post {
-  max-width: 900px;
-  margin: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#post .post-title {
-  margin-top: 50px;
-}
-
-#post img {
-  width: 100%;
-  margin: 0;
-}
-
-#author {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-@media screen and (max-width: 700px) {
-  #author {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-
-#author img {
-  margin: 0;
-}
-
-#post hr {
-  margin-top: 5rem;
-}
-
-/* typography */
-
-a:hover {
-  text-decoration: none;
-}
-
-.navbar-brand {
-  font-size: 3.5rem;
-  font-weight: bold;
-}
-
-.nav-links a {
-  font-size: 2rem;
-}
-
-.dropdown a {
-  font-size: 2rem;
-}
-
-.hero {
-  color: white;
-}
-
-.hero-title h1 {
-  font-size: 7rem;
-  font-weight: bold;
-}
-
-@media screen and (max-width: 700px) {
-  .hero-title h1 {
-    font-size: 4rem;
-  }
-}
-
-.postcard .card {
-  color: white;
-}
-
-.postcard .post-title {
-  font-size: 4rem;
-  font-weight: bold;
-}
-
-@media screen and (max-width: 700px) {
-  .postcard .post-title {
-    font-size: 3rem;
-  }
-}
-
-.postcard-sm .post-title {
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 2.35rem;
-}
-
-@media screen and (min-width: 1100px) {
-  #frontpage .postcard-sm:nth-child(2) .post-title,
-  #frontpage .postcard-sm:nth-child(n + 5):nth-child(-n + 7) .post-title {
-    font-size: 1.5rem;
-  }
-}
-
-.postcard .post-categories {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.postcard-sm .post-categories {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-#post p {
-  font-size: 2rem;
-}
-
-#post .post-title h1 {
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-#post .post-categories {
-  font-weight: bold;
-  color: var(--primary-color);
-}
-
-#post .post-date {
-  font-weight: bold;
-}
-
-.pagination {
-  font-size: 2rem;
-}
-
-#recommended .post-title {
-  font-size: 2rem;
-}
-
-/* helpers */
-
-.left,
-.right {
-  flex-grow: 1;
-  flex-basis: 0;
-}
-
-#moon {
-  margin: 1.5rem;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border-style: none;
-  background: linear-gradient(
-    90deg,
-    var(--lm-navbar-bg-color) 50%,
-    var(--dm-navbar-bg-color) 50%
-  );
-  cursor: pointer;
-}
-
-.fill {
-  height: 450px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.fill img {
-  flex-shrink: 0;
-  max-width: 130%;
-  min-height: 100%;
-}
-
-@media screen and (max-width: 700px) {
-  .fill {
-    height: 300px;
-  }
-}
-
-.card {
-  position: relative;
-  top: 0;
-  transition: top ease 0.5s;
-  overflow: hidden;
-}
-
-.card:hover {
-  top: -10px;
+body{
+  font-size: 18px;
+  background-color: var(--primary-color);
 }
 
 pre {
@@ -309,14 +8,121 @@ pre {
   tab-size: 2;
 }
 
+.page-wrapper{
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.site-title{
+  text-align: center;
+}
+
+nav {
+  margin: 0 5px;
+  padding: 10px;
+  background-color: var(--secondary-color);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 400px;
+  margin: auto;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.postcard {
+  display: block;
+}
+
+.postcard {
+  width: calc(50%);
+}
+
+@media screen and (max-width: 1100px) {
+  .postcard {
+    width: 100%;
+  }
+}
+
+.postcard .post-title,
+.postcard .post-date {
+  margin: 2rem;
+}
+
+.card {
+  position: relative;
+  margin: 5px;
+  overflow: hidden;
+  background-color:  var(--secondary-color);
+}
+
+.card .image-container {
+  height: 200px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+}
+
+#post {
+  margin: 0 5px;
+}
+
+#post img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 1100px) {
+  #post img {
+    width: 100%;
+  }
+}
+
+.hero {
+  margin: 0 5px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 700px) {
+  .hero {
+    height: 300px;
+  }
+}
+
+.hero img {
+  flex-shrink: 0;
+  max-width: 130%;
+  min-height: 100%;
+}
+
+.pagination {
+  text-align: center;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
 /* variables */
 
 :root {
-  --navbar-height: 70px;
-  --dm-navbar-bg-color: black;
-  --dm-base-body-bg-color: #111;
-  --dm-card-bg-color: #111;
-  --primary-color: #777aff;
-  --primary-color-light: #a5a6fa;
-  --navbar-brand-image-height: 50px;
+  --primary-color: floralwhite;
+  --secondary-color: lavender;
 }
