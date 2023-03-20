@@ -1,4 +1,4 @@
-body{
+body {
   font-size: 18px;
   background-color: var(--primary-color);
 }
@@ -8,14 +8,10 @@ pre {
   tab-size: 2;
 }
 
-.page-wrapper{
+.page-wrapper {
   max-width: 1000px;
   margin: auto;
   overflow: hidden;
-}
-
-.site-title{
-  text-align: center;
 }
 
 nav {
@@ -24,38 +20,47 @@ nav {
   background-color: var(--secondary-color);
 }
 
-.site-title h2{
-  margin: 15px;
+.site-title {
+  text-align: center;
+}
+
+.doggy {
+  margin: 3px 0 -6px 0px;
+}
+
+@media screen and (max-width: 460px) {
+  .doggy {
+    margin-bottom: -4px;
+  }
+}
+
+.doggy img {
+  max-width: 170%;
 }
 
 .nav-links {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   max-width: 400px;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
-.doggy {
-  margin: 0 3px -7px 0;
+.fill {
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
 }
 
-.doggy img {
+.fill img {
   flex-shrink: 0;
-  max-width: 150%;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .hero {
   margin: 0 5px;
   height: 450px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
 }
 
 @media screen and (max-width: 700px) {
@@ -65,13 +70,10 @@ nav {
 }
 
 .hero img {
-  flex-shrink: 0;
-  min-width: 100%;
   max-width: 130%;
-  min-height: 100%;
 }
 
-.card-container{
+.card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -79,9 +81,6 @@ nav {
 
 .postcard {
   display: block;
-}
-
-.postcard {
   width: calc(50%);
 }
 
@@ -91,32 +90,23 @@ nav {
   }
 }
 
-.postcard .post-title,
-.postcard .post-date {
-  margin: 1.5rem;
-}
-
 .card {
-  position: relative;
   margin: 5px;
   overflow: hidden;
-  background-color:  var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .card .image-container {
-  margin: 0;
   height: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
 }
 
 .card img {
-  flex-shrink: 0;
-  min-width: 100%;
   max-width: 130%;
-  min-height: 100%;
+}
+
+.card .post-title,
+.card .post-date {
+  margin: 1.5rem;
 }
 
 #post {
@@ -144,8 +134,6 @@ footer {
   text-align: center;
   padding: 10px;
 }
-
-/* variables */
 
 :root {
   --primary-color: floralwhite;
