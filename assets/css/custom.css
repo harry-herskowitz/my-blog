@@ -32,6 +32,28 @@ nav {
   margin: auto;
 }
 
+.hero {
+  margin: 0 5px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 700px) {
+  .hero {
+    height: 300px;
+  }
+}
+
+.hero img {
+  flex-shrink: 0;
+  min-width: 100%;
+  max-width: 130%;
+  min-height: 100%;
+}
+
 .card-container{
   display: flex;
   flex-wrap: wrap;
@@ -75,6 +97,7 @@ nav {
 
 .card img {
   flex-shrink: 0;
+  min-width: 100%;
   max-width: 130%;
   min-height: 100%;
 }
@@ -93,27 +116,6 @@ nav {
   #post img {
     width: 100%;
   }
-}
-
-.hero {
-  margin: 0 5px;
-  height: 450px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 700px) {
-  .hero {
-    height: 300px;
-  }
-}
-
-.hero img {
-  flex-shrink: 0;
-  width: 100%;
-  min-height: 100%;
 }
 
 .pagination {
