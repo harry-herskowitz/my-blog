@@ -37,7 +37,7 @@ nav {
 }
 
 .doggy {
-  margin: 0 5px;
+  margin: 0 3px -7px 0;
   display: flex;
   justify-content: center;
   align-items: center;
