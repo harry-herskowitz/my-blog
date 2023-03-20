@@ -24,6 +24,10 @@ nav {
   background-color: var(--secondary-color);
 }
 
+.site-title h2{
+  margin: 15px;
+}
+
 .nav-links {
   display: flex;
   justify-content: space-between;
@@ -42,7 +46,7 @@ nav {
 
 .doggy img {
   flex-shrink: 0;
-  width: 100%;
+  max-width: 150%;
 }
 
 .hero {
