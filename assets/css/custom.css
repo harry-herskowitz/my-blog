@@ -32,6 +32,19 @@ nav {
   margin: auto;
 }
 
+.doggy {
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.doggy img {
+  flex-shrink: 0;
+  width: 100%;
+}
+
 .hero {
   margin: 0 5px;
   height: 450px;
