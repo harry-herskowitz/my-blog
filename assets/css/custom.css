@@ -75,7 +75,7 @@ nav {
 
 .card img {
   flex-shrink: 0;
-  width: 100%;
+  max-width: 130%;
   min-height: 100%;
 }
 
