@@ -54,7 +54,7 @@ nav {
 
 .postcard .post-title,
 .postcard .post-date {
-  margin: 2rem;
+  margin: 1.5rem;
 }
 
 .card {
@@ -65,12 +65,18 @@ nav {
 }
 
 .card .image-container {
-  height: 200px;
+  margin: 0;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
 .card img {
+  flex-shrink: 0;
   width: 100%;
+  min-height: 100%;
 }
 
 #post {
@@ -106,7 +112,7 @@ nav {
 
 .hero img {
   flex-shrink: 0;
-  max-width: 130%;
+  width: 100%;
   min-height: 100%;
 }
 

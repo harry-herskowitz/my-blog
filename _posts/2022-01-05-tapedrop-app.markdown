@@ -2,7 +2,7 @@
 layout: post
 title: 'Building an iOS app with Svelte, Capacitor and Firebase'
 date: 2022-01-05
-image: 'tapedrop-app-card.jpg'
+image: 'tapedrop-app.jpg'
 ---
 
 ![app screenshot](/assets/images/posts/tapedrop-app.jpg)
