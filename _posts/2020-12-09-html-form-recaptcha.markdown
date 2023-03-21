@@ -9,7 +9,7 @@ image: 'recaptchacover.jpg'
 
 Finding simple answers for submitting custom HTML forms are hard to find, especially when adding in Google reCAPTCHA and avoiding jQuery. The following code is a result of hours of hunting Stack Overflow for answers to two main problems: [How to submit an HTML form without AJAX](https://visdup.blogspot.com/2019/03/how-to-submit-html-form-without.html) and [how to prevent Google reCAPTCHA from overriding HTML5 form validation](https://stackoverflow.com/questions/44021400/how-to-run-recaptcha-only-if-html5-validation-has-passed/44026198#44026198). The first required using a hidden iFrame as the form target, and the second involved placing the ReCAPTCHA attributes in a hidden div rather than in the submit button.
 
-```
+```html
 <!-- form -->
 <iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
 <form action="sendEmail.php" name="contactForm" id="contactForm" method="POST" target="hiddenFrame">
@@ -72,7 +72,7 @@ Finding simple answers for submitting custom HTML forms are hard to find, especi
 
 Here is the sendEmail.php file:
 
-```
+```php
 <?php
 
 // Replace this with your own email address

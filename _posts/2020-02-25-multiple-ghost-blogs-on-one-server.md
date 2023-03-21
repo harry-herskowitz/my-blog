@@ -13,23 +13,25 @@ First, get your Ubuntu server (I can vouch for [Digital Ocean](https://www.digit
 
 Now follow the instructions for Install Ghost, except make two directories, one for each site:
 
-    # Make the first directory
-    sudo mkdir -p /var/www/firstsite.com
+```shell
+# Make the first directory
+sudo mkdir -p /var/www/firstsite.com
 
-    # Replace <user> with the name of your user who will own this directory
-    sudo chown <user>:<user> /var/www/firstsite.com
+# Replace <user> with the name of your user who will own this directory
+sudo chown <user>:<user> /var/www/firstsite.com
 
-    # Set the correct permissions
-    sudo chmod 775 /var/www/firstsite.com
+# Set the correct permissions
+sudo chmod 775 /var/www/firstsite.com
 
+# Make the second directory
+sudo mkdir -p /var/www/secondsite.com
 
-    # Make the second directory
-    sudo mkdir -p /var/www/secondsite.com
+# Replace <user> with the name of your user who will own this directory
+sudo chown <user>:<user> /var/www/secondsite.com
 
-    # Replace <user> with the name of your user who will own this directory
-    sudo chown <user>:<user> /var/www/secondsite.com
+# Set the correct permissions
+sudo chmod 775 /var/www/secondsite.com
 
-    # Set the correct permissions
-    sudo chmod 775 /var/www/secondsite.com
+```
 
 Finally, navigate into each folder and run `ghost install` - and it's that easy! Ghost takes care of the Nginx config for you. Just repeat the steps above and run as many blogs as your server can handle.

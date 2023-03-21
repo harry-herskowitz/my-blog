@@ -9,7 +9,7 @@ I am currently working on a React app that helps content creators find and colla
 
 First, I added the following code within the `useEffect` hook in `App.js` to prompt the user to allow location services:
 
-```
+```js
 if ('geolocation' in navigator) {
   console.log('geolocation supported')
 } else {
@@ -19,20 +19,17 @@ if ('geolocation' in navigator) {
 
 Next, I called `getCurrentPosition` after the login action and dispatched the latitude and longitude to my `geolocate` action:
 
-```
+```js
 dispatch(login(email, password)).then(() => {
   navigator.geolocation.getCurrentPosition((position) => {
-    dispatch(geolocate(
-        position.coords.latitude,
-        position.coords.longitude
-    ))
+    dispatch(geolocate(position.coords.latitude, position.coords.longitude))
   })
 })
 ```
 
 The `geolocate` action looks like this:
 
-```
+```js
 //Update Geolocation
 export const geolocate = (latitude, longitude) => async (dispatch) => {
   try {
@@ -52,7 +49,7 @@ export const geolocate = (latitude, longitude) => async (dispatch) => {
 
 Here is my `post` route (Express.js):
 
-```
+```js
 // @route    POST api/users/geolocation
 // @desc     update user geolocation
 // @access   Public
@@ -75,7 +72,7 @@ I made sure to add `latitude` and `longitude` to my user model, and voila! I had
 
 Now, I wanted to only show profiles within 30 km of the current user. I came across this helpful function which found the distance between two coordinate pairs:
 
-```
+```js
 function getDistance(lat1, lon1, lat2, lon2) {
   var R = 6371 // Radius of the earth in km
   var dLat = deg2rad(lat2 - lat1) // deg2rad below
@@ -98,20 +95,22 @@ function deg2rad(deg) {
 
 One `filter` later, and my task was complete:
 
-```
-{profiles.filter(
+```js
+{
+  profiles.filter(
     (profile) =>
-    getDistance(
+      getDistance(
         latitude,
         longitude,
         profile.user.latitude,
         profile.user.longitude
-    ) < 30
-).length > 0 ? (
+      ) < 30
+  ).length > 0 ? (
     profiles.map((profile) => (
-        <ProfileItem key={profile._id} profile={profile} />
- 	))
- ) : (
- 	<h4>No profiles found...</h4>
- )}
+      <ProfileItem key={profile._id} profile={profile} />
+    ))
+  ) : (
+    <h4>No profiles found...</h4>
+  )
+}
 ```
