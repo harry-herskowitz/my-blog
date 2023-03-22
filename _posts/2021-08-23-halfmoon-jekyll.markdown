@@ -3,6 +3,7 @@ layout: post
 title: 'Halfmoon-Jekyll'
 date: 2021-08-23
 image: 'halfmoon.jpg'
+image-alt: 'A white half circle on black background'
 ---
 
 I made a [Jekyll](https://jekyllrb.com/) theme using the [Halfmoon](https://www.gethalfmoon.com/docs/introduction/) front-end framework. It supports pagination, multiple authors, and dark mode.

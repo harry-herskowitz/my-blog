@@ -3,6 +3,7 @@ layout: post
 title: 'Connecting Local Users with Geolocation in React'
 date: 2020-09-19
 image: 'geolocation.jpg'
+image-alt: 'Hands holding a glowing globe'
 ---
 
 I am currently working on a React app that helps content creators find and collaborate with other creators in their area. Thankfully, the [Geolocation Web API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) makes getting a user's coordinates simple. I will walk through how I used this API to update a user's coordinates at login, and share a useful function I found for filtering users by distance.

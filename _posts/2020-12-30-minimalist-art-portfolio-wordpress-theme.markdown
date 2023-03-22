@@ -3,6 +3,7 @@ layout: post
 title: 'Minimalist Art Portfolio WordPress Theme'
 date: 2020-12-30
 image: 'jesstheme.jpg'
+image-alt: 'Screenshot of WordPress site with grid of artwork by Jess Fauscette'
 ---
 
 <script src="https://gumroad.com/js/gumroad-embed.js"></script>

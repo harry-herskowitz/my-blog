@@ -3,6 +3,7 @@ layout: post
 title: "You Don't Need Me To Make Your Website"
 date: 2021-02-11
 image: 'wordpress.jpg'
+image-alt: 'Screenshot of WordPress dashboard'
 ---
 
 Hi. I know this is weird. Why would I tell you to make your own website instead of just taking your business? Two reasons: 1) You are a young entrepreneur who should learn this stuff in order to have real control of your business. 2) You probably can't afford me. Either way, I want to help. So, here's a quick guide on setting up your own site.

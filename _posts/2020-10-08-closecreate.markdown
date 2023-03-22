@@ -3,6 +3,7 @@ layout: post
 title: 'Geolocation for Creative Collaboration'
 date: 2020-09-04
 image: 'closecreate2.jpeg'
+image-alt: 'Screenshot of the Closecreate web app'
 ---
 
 ![closecreate screenshot]({{ site.baseurl }}/assets/images/posts/closecreate1.jpeg)

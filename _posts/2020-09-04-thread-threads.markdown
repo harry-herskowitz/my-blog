@@ -3,6 +3,7 @@ layout: post
 title: 'Archiving the Life of Secondhand Textiles'
 date: 2020-09-04
 image: 'threadthreadscover.jpg'
+image-alt: "Screenshot of search form with prompt 'Enter code to access thread'"
 ---
 
 ![threadthreads screenshot]({{ site.baseurl }}/assets/images/posts/threadthreads.jpg)

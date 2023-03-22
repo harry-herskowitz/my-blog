@@ -3,9 +3,10 @@ layout: post
 title: 'Building an iOS app with Svelte, Capacitor and Firebase'
 date: 2022-01-05
 image: 'tapedrop-app.jpg'
+image-alt: 'Mockup of Tapedrop app on iPhone'
 ---
 
-![app screenshot](/assets/images/posts/tapedrop-app.jpg)
+![Mockup of Tapedrop app on iPhone](/assets/images/posts/tapedrop-app.jpg)
 
 I had the idea for the [Tapedrop app](https://tapedrop.com/2022/01/01/tapedrop-app.html) years ago. At the time, I knew little more than basic HTML, CSS, and JS. Diving into native app development was daunting, and still is. Luckily, web technology has advanced to the point where making an iOS app is as simple as adding [Capacitor](https://capacitorjs.com/) to a web app. With [Svelte](https://svelte.dev/) as my frontend framework and [Firebase](https://firebase.google.com/) on the backend, building this app was a joy. In this post I will go over my experience with this stack.
 

@@ -3,6 +3,7 @@ layout: post
 title: 'HTML Form Submit with reCAPTCHA, JS and PHP'
 date: 2020-12-09
 image: 'recaptchacover.jpg'
+image-alt: "Screenshot of reCAPTCHA that reads 'I'm not a robot'"
 ---
 
 ![recaptcha]({{ site.baseurl }}/assets/images/posts/recaptcha.jpg)
