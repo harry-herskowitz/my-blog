@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Rails Action Cable for External Applications'
-date: 2023-03-21
+date: 2023-04-14
 image: 'actioncable.jpg'
 image-alt: 'Rails Action Cable graphic'
 ---
