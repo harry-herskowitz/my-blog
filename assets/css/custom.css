@@ -15,7 +15,7 @@ pre {
 }
 
 nav {
-  margin: 0 5px;
+  margin: 0 5px 5px 5px;
   background-color: var(--secondary-color);
   overflow: hidden;
 }
@@ -42,7 +42,7 @@ nav {
   display: flex;
   justify-content: space-around;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 10px auto;
   padding-bottom: 5px;
 }
 
