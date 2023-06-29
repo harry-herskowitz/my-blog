@@ -11,8 +11,8 @@ Software Developer
 Motivated software developer with a lifelong passion for technology. Over 8 years of experience building and maintaining websites and applications using various languages, frameworks, and platforms. Possesses strong problem-solving skills, exceptional organization, and excellent interpersonal abilities.
 
 ### Skills 
-Languages: Ruby, Javascript, .NET, SQL, HTML, CSS
-Platforms: Heroku, Azure, Firebase, AWS, Linux 
+Languages: Ruby, Javascript, .NET, SQL, HTML, CSS  
+Platforms: Heroku, Azure, Firebase, AWS, Linux  
 Tools: GitHub, DevOps, CI/CD Pipelines
 
 ### Experience 
