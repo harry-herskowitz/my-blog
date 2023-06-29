@@ -32,5 +32,5 @@ Junior Web Developer, VCUarts, Richmond, VA, June 2016 - May 2017
 - Collaborated with cross-functional teams to implement new features, troubleshoot technical issues, and ensure seamless integration of web content management systems.
 
 ### Education
-Bachelor of Interdisciplinary Studies in Digital Media, Virginia Commonwealth University
+Bachelor of Interdisciplinary Studies in Digital Media, Virginia Commonwealth University  
 Aug 2013 - Dec 2016, Magna Cum Laude
