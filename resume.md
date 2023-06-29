@@ -8,48 +8,29 @@ title: Resume
 Software Developer
 
 ### Summary
+Motivated software developer with a lifelong passion for technology. Over 8 years of experience building and maintaining websites and applications using various languages, frameworks, and platforms. Possesses strong problem-solving skills, exceptional organization, and excellent interpersonal abilities.
 
-Self-motivated coder with a lifelong passion for technology. 8+ years experience building and maintaining websites and applications using a wide range of languages, frameworks, and libraries. Strong problem solving skills, highly organized and good with people.
+### Skills 
+Languages: Ruby, Javascript, .NET, SQL, HTML, CSS
+Platforms: Heroku, Azure, Firebase, AWS, Linux 
+Tools: GitHub, DevOps, CI/CD Pipelines
 
-### Skills
+### Experience 
+Software Developer, Bitwerx, Lexington, KY, March 2021 - Present
+Develop custom software solutions for a large-scale animal health company.
+Maintain critical web-based systems relied upon by veterinary clinics nationwide.
+Break out functionality from a monolithic Rails application into .NET microservices.
 
-HTML, CSS, JavaScript, React, Svelte, NodeJS, Ruby on Rails, iOS, C#, .NET, PostgreSQL, GraphQL, Firebase, Heroku, AWS, Linux, WordPress
+Freelance Web Developer, June 2017 - Present
+Build websites and applications for businesses and organizations, tailoring solutions to their specific needs.
+Utilize a wide range of languages and frameworks, from static site generators to complex Ruby and JavaScript applications.
+Upgrade and maintain existing websites and applications.
 
-### Experience
-
-Bitwerx - Software Developer\
-March 2021 - Present\
-Lexington, KY
-
-- Develop custom, web-based software solutions for a large-scale veterinary technology company.
-- Continued development and maintenance on critical web-based systems depended upon by veterinary clinics nationwide.
-- Break out functionality from a monolithic application into microservices.
-
-Thread Threads - Ruby on Rails Developer\
-March 2020 - July 2020\
-Fayetteville, AR
-
-- Developed Thread Threads, a textile archive web application.
-- Closely follow UI/UX wireframes and implement specified functionionality.
-- Integrated authentication with Google and Facebook OAuth, and AWS S3 for images.
-
-Freelance Web Developer\
-June 2017 - Present
-
-- Work with businesses, organizations, and artists to develop websites that meet their needs.
-- Redesign and optimize existing sites for increased performance, functionality, and aesthetics.
-- Build web apps and prototypes for startups using popular frameworks (Javascript, Ruby on Rails).
-
-VCUarts - Junior Web Developer\
-June 2016 - May 2017\
-Richmond, VA
-
-- Designed, implemented and monitored arts.vcu.edu for continuous improvement.
-- Kept informed of emerging technologies, software and trends for project applications.
-- Produced page content such as interactive visuals for school events and initiatives.
+Junior Web Developer, VCUarts, Richmond, VA, June 2016 - May 2017
+Contributed to the design and development of responsive and visually engaging websites for VCUarts.
+Utilized modern frameworks and libraries to create interactive user interfaces and optimize website performance.
+Collaborated with cross-functional teams to implement new features, troubleshoot technical issues, and ensure seamless integration of web content management systems.
 
 ### Education
-
-Bachelor’s Degree in Digital Media, Aug 2013 - Dec 2016\
-Virginia Commonwealth University - Richmond, VA\
-Magna Cum Laude
+Bachelor of Interdisciplinary Studies in Digital Media, Virginia Commonwealth University
+Aug 2013 - Dec 2016, Magna Cum Laude
