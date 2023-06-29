@@ -16,10 +16,10 @@ Platforms: Heroku, Azure, Firebase, AWS, Linux
 Tools: GitHub, DevOps, CI/CD Pipelines
 
 ### Experience 
-Software Developer, Bitwerx, Lexington, KY, March 2021 - Present
-Develop custom software solutions for a large-scale animal health company.
-Maintain critical web-based systems relied upon by veterinary clinics nationwide.
+Lead Software Developer, Bitwerx, Lexington, KY, March 2021 - Present
+Develop and maintain critical web-based systems relied upon by veterinary clinics nationwide.
 Break out functionality from a monolithic Rails application into .NET microservices.
+Lead team of Ruby on Rails developers and make cross-team system architecture and design decisions.
 
 Freelance Web Developer, June 2017 - Present
 Build websites and applications for businesses and organizations, tailoring solutions to their specific needs.
