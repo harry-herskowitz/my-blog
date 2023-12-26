@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Introducing Prismocosm'
-date: 2023-04-14
+date: 2023-11-01
 image: 'prismocosm.jpg'
 image-alt: 'Prismocosm Logo'
 ---
