@@ -7,7 +7,7 @@ image-alt: 'Screenshot of WordPress site with grid of artwork by Jess Fauscette'
 ---
 
 <script src="https://gumroad.com/js/gumroad-embed.js"></script>
-<div class="gumroad-product-embed"><a href="https://gumroad.com/l/vNTVj">Loading...</a></div>
+<div class="gumroad-product-embed"><a href="https://prismocosm.gumroad.com/l/rclfob">Loading...</a></div>
 
 If you're an artist looking to build a portfolio site, you've probably considered using [Cargo](https://cargo.site/). Its minimalist themes and UI are great for showcasing visual art easily. However, it can be pricey and limiting - especially compared to hosting your own WordPress site.
 
