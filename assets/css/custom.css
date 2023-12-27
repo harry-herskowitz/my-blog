@@ -22,7 +22,13 @@ nav {
   overflow: hidden;
 }
 
-.site-title {
+.site-title h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.site-tag {
+  display: block;
   text-align: center;
 }
 
